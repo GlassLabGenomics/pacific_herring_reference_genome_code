@@ -1,0 +1,2 @@
+## for more info, refer to execution_report_2025-11-11_20-16-24.html
+nextflow run nf-core/pairgenomealign -profile singularity --target ../genome/Uppsala_Charengus_assembly/GCF_900700415.2_Ch_v2.0.2_genomic.fna --targetName uppsala_charengus --input char_cpal_ssprattus_aalosa_samplesheet.csv --outdir char_cpal_ssprattus_aalosa_alignment --export_aln_to bam --dotplot_width 2000
