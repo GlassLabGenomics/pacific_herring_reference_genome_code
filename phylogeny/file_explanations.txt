@@ -1,0 +1,6 @@
+Clupeiformes_consensus_phylo_v2.tre - nexus formatted text file, readable/editable as text or as a tree by phylogenetic tree compatible software - Consensus topology of maximum likelihood (ML) phylogenies from 500 protein coding loci. All but one relationship in the topology are retrieved in more than 95% of the individual loci phylogenies. Only 68% of the individual phylogenies support a sister group relationship between Clupea pallasii and C. cf. mirabilis. Branch lengths correspond to median ml lengths calculated from locus specific optimal substitution models. Substitution models, ML distances and phylogenies were determined with IQ-TREE (version 3.01).
+
+Clupeiformes_consensus_phylo_v2.svg and Clupeiformes_consensus_phylo_v2.pdf - svg and pdf files to edit for final figure production. Branch in red highlights the only relationship with among-loci concordance lower than 95%.
+
+Clupeiform protein coding nucleotide pairwise distances.xlsx - Per site maximum likelihood pairwise distances calculated from nucleotide alignments of 500 protein coding loci. Substitution models and distances were calculated independently from alignments of each locus in IQ-TREE (version 3.01). Median values above the diagonal and interquartile range below the diagonal.
+
