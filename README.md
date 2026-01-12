@@ -43,7 +43,7 @@ Please refer to the manuscript for specific accession numbers and data access in
 
 If you use this code or the Pacific herring reference genome in your research, please cite:
 
-[Citation information to be added upon manuscript publication]
+> add citation
 
 ## Dependencies
 
