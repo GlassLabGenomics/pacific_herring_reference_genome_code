@@ -1,6 +1,7 @@
 # Pacific Herring Reference Genome Code
 
 Repository containing scripts, code, and metadata accompanying the Pacific herring (*Clupea pallasii*) reference genome manuscript.
+> cite here
 
 ## Overview
 
@@ -14,6 +15,8 @@ pacific_herring_reference_genome_code/
 ├── pairwise_alignment/       # Genome-to-genome alignment analyses
 ├── phylogeny/               # Phylogenetic tree construction
 ├── quast/                   # Assembly quality statistics
+├── repeatmasker/            #
+├── iq-tree/                 #
 └── LICENSE                  # MIT License
 ```
 
@@ -46,12 +49,15 @@ If you use this code or the Pacific herring reference genome in your research, p
 
 Bioinformatics tools required for running these analyses include:
 
-- BUSCO v?
-- QUAST v?
-- Alignment tools (e.g., nf-core pairgenomealign, minimap2)
-- Phylogenetic software (e.g., IQ-TREE) versions?
-- Python v?
-- R (for visualization and statistical analyses)
+- BUSCO v. 6.0.0
+- QUAST v. 5.2.0
+- nf-core pairgenomealign v. 2.2
+- minimap2
+- RepeatMasker v.
+- SyRI v.
+- IQ-TREE v. 3.01
+- Python v. 3+
+- R v. 4+
 
 Specific version requirements and additional dependencies are documented within individual analysis directories.
 
