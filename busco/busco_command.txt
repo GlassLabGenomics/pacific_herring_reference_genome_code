@@ -1,0 +1,1 @@
+busco -i assembly.fasta -m genome -c 4 -l actinopterygii_odb12

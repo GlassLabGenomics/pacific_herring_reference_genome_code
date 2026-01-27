@@ -1,0 +1,3 @@
+# Aligned sequences were used in phylogenetic inference and maximum likelihood distance calculations using IQ-TREE (v. 3.01; Wong, T. K. F., Cherryh, C., Rodrigo, A. G., Hahn, M. W., Minh, B. Q., & Lanfear, R. (2024). MAST: Phylogenetic inference with mixtures across sites and trees. Systematic Biology, 73(2), 375–391.)
+
+IQ-TREE command: iqtree3 -s locus.aln -m GTR+G
