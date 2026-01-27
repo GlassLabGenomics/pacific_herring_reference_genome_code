@@ -1,0 +1,5 @@
+# minimap2 v2.24, used to align a query assembly to a reference assembly
+# alignment of GCF_900700415.2_Ch_v2.0.2_genomic.fna (as reference) with Clupal_KotSou_assembly (as query)
+# -x set to asm5 (low divergence between genomes)
+
+minimap2 -x asm5 reference_assembly.fasta query_assembly.fasta

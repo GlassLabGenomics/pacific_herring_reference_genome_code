@@ -1,0 +1,3 @@
+# Running D-Genies to create dot plots
+# D-Genies is a web interface
+'dgenies run' (this opens a browser interface with fields for alignment and assemblies files)
