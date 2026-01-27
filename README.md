@@ -11,12 +11,12 @@ This repository provides descriptions of the workflows and analysis scripts used
 
 ```
 pacific_herring_reference_genome_code/
-├── busco/                    # BUSCO completeness assessment
-├── pairwise_alignment/       # Genome-to-genome alignment analyses
-├── phylogeny/               # Phylogenetic tree construction
+├── busco/                   # BUSCO completeness assessment
 ├── quast/                   # Assembly quality statistics
-├── repeatmasker/            #
-├── iq-tree/                 #
+├── pairwise_alignment/      # Genome-to-genome alignment 
+├── synteny/                 # Genomic structural variant detection
+├── phylogeny/               # Phylogenetic tree construction using coding sequences
+├── repeatmasker/            # Annotation of repeats and low complexity regions
 └── LICENSE                  # MIT License
 ```
 
@@ -25,14 +25,20 @@ pacific_herring_reference_genome_code/
 ### `busco/`
 Scripts and results for BUSCO (Benchmarking Universal Single-Copy Orthologs) analysis to assess genome assembly completeness and quality.
 
+### `quast/`
+QUAST (Quality Assessment Tool for Genome Assemblies) analysis scripts and outputs for evaluating assembly statistics such as N50, total length, and number of scaffolds.
+
 ### `pairwise_alignment/`
 Code for performing pairwise genome alignments, comparing the Pacific herring assembly to related species.
+
+### `synteny/`
+Code for evaluating genomic structural variation based on the alignments. 
 
 ### `phylogeny/`
 Scripts for phylogenetic analysis and tree construction to place Pacific herring in evolutionary context relative to other Clupeids.
 
-### `quast/`
-QUAST (Quality Assessment Tool for Genome Assemblies) analysis scripts and outputs for evaluating assembly statistics such as N50, total length, and number of scaffolds.
+### `repeatmasker/`
+> (fill out)
 
 ## Data Availability
 
@@ -50,11 +56,16 @@ If you use this code or the Pacific herring reference genome in your research, p
 Bioinformatics tools required for running these analyses include:
 
 - BUSCO v. 6.0.0
+- AGAT v. 0.7.0
+- MACSE
+- DendroPy 
 - QUAST v. 5.2.0
 - nf-core pairgenomealign v. 2.2
-- minimap2
+- minimap2 v. 2.24
+- AGAT v. 0.7.0
 - RepeatMasker v.
 - SyRI v.
+- plotsr
 - IQ-TREE v. 3.01
 - Python v. 3+
 - R v. 4+
