@@ -57,15 +57,15 @@ Bioinformatics tools required for running these analyses include:
 
 - BUSCO v. 6.0.0
 - AGAT v. 0.7.0
-- MACSE
-- DendroPy 
+- MACSE v. 12.01
+- DendroPy v. 4.2+
 - QUAST v. 5.2.0
 - nf-core pairgenomealign v. 2.2
 - minimap2 v. 2.24
 - AGAT v. 0.7.0
-- RepeatMasker v.
-- SyRI v.
-- plotsr
+- RepeatMasker v. 4.2+
+- SyRI v. 1.7.1
+- plotsr v. 0.4
 - IQ-TREE v. 3.01
 - Python v. 3+
 - R v. 4+
